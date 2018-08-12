@@ -32,7 +32,7 @@ class Artist
   end
   
    def print_songs
-    self.
+    self.songs.each 
   end
   
    def save
