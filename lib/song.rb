@@ -9,6 +9,7 @@ class Song
     full_title = file.split(" - ")
     song = self.new (full_title[1])
     song.artist_name = full_title[0]
+    song
   end
   
    def artist_name=(name)
