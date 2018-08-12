@@ -35,6 +35,7 @@ class Artist
     self.songs.each do |song|
       puts song.name
     end 
+  end 
   end
   
    def save
